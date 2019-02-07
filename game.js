@@ -34,7 +34,6 @@ function startGame() {
 				clearInterval(id);
 			}
 			else{
-				ctx.clearRect(0,0,canvas.width, canvas.height);
 				estado++;
 				SpriteSheet.draw(ctx,"explosion",0,0,estado);
 			}
